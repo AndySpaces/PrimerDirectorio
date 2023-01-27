@@ -1,0 +1,59 @@
+Apuntes Git
+
+ESQUEMA
+
+working directory --> git add --> staging area --> git commit --> repository
+
+COMANDOS DE INFORMACION
+
+- git init: creará un nuevo repositorio GIT local.
+- gti add <file>: para pasar los archicos del working al staging area
+- git status: para saber el estado
+- git commit: para pasar del stagin a repository
+- git push: para subirlo a un servidor remoto
+- git pull: para tener los cambios que hicieron los demas desarrolladores
+- git clone: te hace una copia a tu working
+
+
+COMANDOS DE CONFIGURACION 
+
+$ git config --global user.name "Andy"
+$ git config --global user.email 192422@unsaac.edu.pe
+$ git config --global core.editor "code --wait"
+$ git config --global -e
+$ git config --global core.autocrlf input
+$ git config -h
+
+COMANDOS TERMINAR PARA MOVERNOS
+
+ls , para listar todas las carpetas
+pwd, para saber donde nos encontramos
+cd <directorio o carpeta (workspace/)> , para movernos
+cd .. , salir del directorio y retroceder a la carpeta anterior
+mkdir <nombre del directorio(miweb)>  , para crear un directorio
+git init , para inicializar a trabajar con git
+ls -a , para mostrar el archivo git y ocultos
+cd .git , para ver todos los archivos con los que trabajaremos
+code . , para que me habra la carpeta donde estoy en el visual code
+rm archivo2.txt , para eliminar archicos
+
+COMANDOS GIT add
+
+git add archivo.txt
+git add archivo1.txt archivo2.txt
+git add .txt , agrega todos los archivos txt
+git add . , agrega todo
+
+COMANDOS GIT commit
+
+git commit -m "commit inicial"
+git commit  + Enter , nos pedira el nombre para guardarlo , guardamos y cerramos
+
+git rm archivo2.txt , se elimina y ya esta agregado, solo queda comitearlo
+git restore --staged archivo2.txt , para no pasarlo al directorio y recupearalo
+git restore archivo2.txt, para recuperar archivos que eliminamos.
+
+mv archivo1.txt(origen) archivo.txt(destino) , para cambiar el nombre
+
+PARA CONFIGURAR ARCHIVOS QUE SOLO TRABAJARAN EN GIT
+
