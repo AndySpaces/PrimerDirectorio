@@ -57,5 +57,5 @@ mv archivo1.txt(origen) archivo.txt(destino) , para cambiar el nombre
 
 PARA CONFIGURAR ARCHIVOS QUE SOLO TRABAJARAN EN GIT
 
-
-
+.env , nombre estandar para variables de entorno
+.gitignore , archivos, carpetas o rutas que quiero ignorar
