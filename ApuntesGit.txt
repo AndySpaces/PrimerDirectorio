@@ -36,6 +36,8 @@ ls -a , para mostrar el archivo git y ocultos
 cd .git , para ver todos los archivos con los que trabajaremos
 code . , para que me habra la carpeta donde estoy en el visual code
 rm archivo2.txt , para eliminar archicos
+cat archivo2.txt  : nos muestra que hay dentro del documento
+
 
 COMANDOS GIT add
 
