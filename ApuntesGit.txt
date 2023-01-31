@@ -59,3 +59,18 @@ PARA CONFIGURAR ARCHIVOS QUE SOLO TRABAJARAN EN GIT
 
 .env , nombre estandar para variables de entorno
 .gitignore , archivos, carpetas o rutas que quiero ignorar
+
+git status -s , M = archivo que a sido modificado , ? = todavia no a sido agregado
+git diff ,  muestra en pantalla que dados estamos cambiando, tiene que estar antes de pasar al staged
+            para salir se aprieta "q"
+
+git diff --staged
+git log --oneline
+
+
+****************************************
+                RAMAS
+****************************************
+git branch  : para saber en que rama estamos o nos encontramos
+git checkout -b <nombre de la rama>(ramaAndy)  : para crear una nueva rama
+
