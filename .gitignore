@@ -1,4 +1,3 @@
-archivos o rutas que quiero ignorar, que no esten en mi repositorio
-
 .env
 .gitignore
+archivo2.txt

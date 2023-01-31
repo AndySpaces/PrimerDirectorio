@@ -60,7 +60,7 @@ mv archivo1.txt(origen) archivo.txt(destino) , para cambiar el nombre
 PARA CONFIGURAR ARCHIVOS QUE SOLO TRABAJARAN EN GIT
 
 .env , nombre estandar para variables de entorno
-.gitignore , archivos, carpetas o rutas que quiero ignorar
+.gitignore :  archivos, carpetas o rutas que quiero ignorar
 
 git status -s , M = archivo que a sido modificado , ? = todavia no a sido agregado
 git diff ,  muestra en pantalla que dados estamos cambiando, tiene que estar antes de pasar al staged
@@ -81,4 +81,3 @@ estar en la rama ramaMain
 git merge <ramaX>  : para mezclar las actualizaciones
 git push -u origin rama : indicamos que queremos subir los archivos 
                           -u para crear la rama , origin main donde indicamos que la rama origen se llame rama
-                          
