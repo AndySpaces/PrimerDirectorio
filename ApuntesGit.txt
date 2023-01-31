@@ -76,3 +76,6 @@ git log --oneline
 git branch  : para saber en que rama estamos o nos encontramos
 git checkout -b <nombre de la rama>(ramaAndy)  : para crear una nueva rama
 
+para poner poner los cambios de una ramaX a la ramaMain, tenemos que primero
+estar en la rama ramaMain  
+git merge <ramaX>  : para mezclar las actualizaciones
