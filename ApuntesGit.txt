@@ -79,3 +79,6 @@ git checkout -b <nombre de la rama>(ramaAndy)  : para crear una nueva rama
 para poner poner los cambios de una ramaX a la ramaMain, tenemos que primero
 estar en la rama ramaMain  
 git merge <ramaX>  : para mezclar las actualizaciones
+git push -u origin rama : indicamos que queremos subir los archivos 
+                          -u para crear la rama , origin main donde indicamos que la rama origen se llame rama
+                          
