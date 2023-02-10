@@ -81,3 +81,14 @@ estar en la rama ramaMain
 git merge <ramaX>  : para mezclar las actualizaciones
 git push -u origin rama : indicamos que queremos subir los archivos 
                           -u para crear la rama , origin main donde indicamos que la rama origen se llame rama
+
+
+//// COMANDOS PARA TRABAJAR CON EL GIT //////////
+
+PARA DESCARGAR : git remote add origin htps:...........
+PARA SUBIR DESDE EL MAIN : git push -u origin main
+PARA DESCARGAR DESDE UNA RAMA: git pull origin ramaAndy
+PARA DESCARGAR DESDE EL MAIN :  git pull origin main
+PARA SUBIR DESDE UNA RAMA:
+git checkout -b ramaC
+git push -u origin ramaC
