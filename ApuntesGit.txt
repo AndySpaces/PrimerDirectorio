@@ -51,6 +51,8 @@ COMANDOS GIT commit
 git commit -m "commit inicial"
 git commit  + Enter , nos pedira el nombre para guardarlo , guardamos y cerramos
 
+git commit -am "cambios" : sube todo defrente
+
 git rm archivo2.txt , se elimina y ya esta agregado, solo queda comitearlo
 git restore --staged archivo2.txt , para no pasarlo al directorio y recupearalo
 git restore archivo2.txt, para recuperar archivos que eliminamos.
